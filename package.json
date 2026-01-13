@@ -1,0 +1,29 @@
+{
+  "name": "@gaetanredoutez/hrnet-ui",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+
+  "main": "dist/hrnet-ui.umd.js",
+  "module": "dist/hrnet-ui.es.js",
+  "files": ["dist"],
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
+
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.4",
+    "eslint": "^9.39.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3"
+  }
+}
